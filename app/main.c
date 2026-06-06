@@ -1,5 +1,6 @@
 #include "stm32f4xx.h"
 // ≤‚ ‘£¨ «∑ÒÕ¨≤Ω
+// ≤‚ ‘2
 //  LED1  PE5
 //  LED2  PB0
 //  LED3  PB1
