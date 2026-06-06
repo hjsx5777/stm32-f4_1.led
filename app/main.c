@@ -1,15 +1,15 @@
 #include "stm32f4xx.h"
+// 测试，是否同步
+//  LED1  PE5
+//  LED2  PB0
+//  LED3  PB1
 
-// LED1  PE5
-// LED2  PB0
-// LED3  PB1
-
-void cpu_delay1(uint32_t us);//声明了延时函数
+void cpu_delay1(uint32_t us); // 声明了延时函数
 
 int main(void)
 {
 	//	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
-/**/
+	/**/
 	GPIO_InitTypeDef GPIO_InitStructure;
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOE, ENABLE);
 	GPIO_StructInit(&GPIO_InitStructure);
